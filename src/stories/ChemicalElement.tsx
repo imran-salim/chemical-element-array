@@ -15,10 +15,18 @@ interface ChemicalElementProps {
    */
   atomicNumber?: number;
   /**
+   * What row does this element belong to?
+   */
+  period?: number;
+  /**
+   * What column does this element belong to?
+   */
+  group?: number;
+  /**
    * What is the chemical group block of this element?
    */
   backgroundColor?: string;
-  /**
+   /**
    * Optional click handler
    */
   onClick?: () => void;
@@ -28,6 +36,8 @@ export const ChemicalElement = ({
   name = 'Oxygen',
   symbol = 'O',
   atomicNumber = 8,
+  period = 1,
+  group = 1,
   backgroundColor = 'lightskyblue',
   ...props 
 }: ChemicalElementProps) => {
