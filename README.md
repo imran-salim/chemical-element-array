@@ -1,6 +1,6 @@
 # Periodic Table of Chemical Elements
 
-A [React](https://react.dev/) app of the period table written in [TypeScript](https://www.typescriptlang.org/) and built with [Vite](https://vitejs.dev/) and [Storybook](https://storybook.js.org/).
+A [React](https://react.dev/) app of the periodic table written in [TypeScript](https://www.typescriptlang.org/) and built with [Vite](https://vitejs.dev/) and [Storybook](https://storybook.js.org/).
 
 ---
 ### Installation
