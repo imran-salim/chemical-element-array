@@ -15,5 +15,13 @@
 
 .group-two {
   width: 102px;
-  padding-top: 206px;
+  padding-top: 103px;
+}
+
+.group-three, .group-four, .group-five, .group-six, .group-seven, .group-eight, .group-nine, .group-ten, .group-eleven, .group-twelve {
+  width: 102px;
+  padding-top: 309px;
+}
+.f-block {
+  padding-top: 26px;
 }
