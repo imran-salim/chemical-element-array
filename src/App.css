@@ -4,3 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+
+.table {
+  display: flex;
+}
+
+.group-one {
+  width: 102px;
+}
+
+.group-two {
+  width: 102px;
+  padding-top: 206px;
+}
