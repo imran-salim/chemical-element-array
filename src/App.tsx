@@ -154,61 +154,61 @@ const App = () => {
       </div>
 
       <div className="group-fourteen">
-        <ChemicalElement name='' symbol='' atomicNumber={5} period={2} group={14} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={13} period={3} group={14} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={31} period={4} group={14} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={49} period={5} group={14} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={81} period={6} group={14} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={113} period={7} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={6} period={2} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={14} period={3} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={32} period={4} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={50} period={5} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={82} period={6} group={14} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={114} period={7} group={14} backgroundColor='lemonchiffon' />
         <div className="f-block">
-          <ChemicalElement name='' symbol='' atomicNumber={67} period={0} group={14} backgroundColor='lightgreen' />
-          <ChemicalElement name='' symbol='' atomicNumber={99} period={0} group={14} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={68} period={0} group={14} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={100} period={0} group={14} backgroundColor='lightgreen' />
         </div>
       </div>
 
       <div className="group-fifteen">
-        <ChemicalElement name='' symbol='' atomicNumber={5} period={2} group={15} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={13} period={3} group={15} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={31} period={4} group={15} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={49} period={5} group={15} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={81} period={6} group={15} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={113} period={7} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={7} period={2} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={15} period={3} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={33} period={4} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={51} period={5} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={83} period={6} group={15} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={115} period={7} group={15} backgroundColor='lemonchiffon' />
         <div className="f-block">
-          <ChemicalElement name='' symbol='' atomicNumber={67} period={0} group={15} backgroundColor='lightgreen' />
-          <ChemicalElement name='' symbol='' atomicNumber={99} period={0} group={15} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={69} period={0} group={15} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={101} period={0} group={15} backgroundColor='lightgreen' />
         </div>
       </div>
 
       <div className="group-sixteen">
-        <ChemicalElement name='' symbol='' atomicNumber={5} period={2} group={16} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={13} period={3} group={16} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={31} period={4} group={16} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={49} period={5} group={16} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={81} period={6} group={16} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={113} period={7} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={8} period={2} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={16} period={3} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={34} period={4} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={52} period={5} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={84} period={6} group={16} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={116} period={7} group={16} backgroundColor='lemonchiffon' />
         <div className="f-block">
-          <ChemicalElement name='' symbol='' atomicNumber={67} period={0} group={16} backgroundColor='lightgreen' />
-          <ChemicalElement name='' symbol='' atomicNumber={99} period={0} group={16} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={70} period={0} group={16} backgroundColor='lightgreen' />
+          <ChemicalElement name='' symbol='' atomicNumber={102} period={0} group={16} backgroundColor='lightgreen' />
         </div>
       </div>
 
       <div className="group-seventeen">
-        <ChemicalElement name='' symbol='' atomicNumber={5} period={2} group={17} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={13} period={3} group={17} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={31} period={4} group={17} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={49} period={5} group={17} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={81} period={6} group={17} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={113} period={7} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={9} period={2} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={17} period={3} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={35} period={4} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={53} period={5} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={85} period={6} group={17} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={117} period={7} group={17} backgroundColor='lemonchiffon' />
       </div>
 
       <div className="group-eighteen">
         <ChemicalElement name='Helium' symbol='He' atomicNumber={2} period={1} group={18} backgroundColor='lightcoral' />
-        <ChemicalElement name='' symbol='' atomicNumber={5} period={2} group={18} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={13} period={3} group={18} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={31} period={4} group={18} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={49} period={5} group={18} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={81} period={6} group={18} backgroundColor='lemonchiffon' />
-        <ChemicalElement name='' symbol='' atomicNumber={113} period={7} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={10} period={2} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={18} period={3} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={36} period={4} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={54} period={5} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={86} period={6} group={18} backgroundColor='lemonchiffon' />
+        <ChemicalElement name='' symbol='' atomicNumber={118} period={7} group={18} backgroundColor='lemonchiffon' />
       </div>
     </div>
   );
