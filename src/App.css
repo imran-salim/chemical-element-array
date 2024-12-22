@@ -9,30 +9,22 @@
   display: flex;
 }
 
-.group-one {
-  width: 102px;
-}
-
 .group-two {
-  width: 102px;
   padding-top: 103px;
 }
 
 .group-three, .group-four, .group-five, .group-six, .group-seven, .group-eight, .group-nine, .group-ten, .group-eleven, .group-twelve {
-  width: 102px;
   padding-top: 309px;
 }
 
 .group-thirteen, .group-fourteen, .group-fifteen, .group-sixteen, .group-seventeen {
-  width: 102px;
   padding-top: 103px;
 }
 
 .group-eighteen {
-  width: 102px;
-  padding-right: 62px;
+  padding-right: 51.5px;
 }
 
 .f-block {
-  padding-top: 26px;
+  padding-top: 25.75px;
 }
