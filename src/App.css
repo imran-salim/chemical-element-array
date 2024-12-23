@@ -6,7 +6,8 @@
 }
 
 .table {
-  display: flex;
+  display: grid;
+  grid-template-columns: 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px;
 }
 
 .group-two {
