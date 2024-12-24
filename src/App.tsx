@@ -202,7 +202,9 @@ const App = () => {
       </div>
 
       <div className="group-eighteen">
-        <ChemicalElement name='Helium' symbol='He' atomicNumber={2} period={1} group={18} backgroundColor='lightcoral' />
+        <div className="element-2">
+          <ChemicalElement name='Helium' symbol='He' atomicNumber={2} period={1} group={18} backgroundColor='lightcoral' />
+        </div>
         <ChemicalElement name='Neon' symbol='Ne' atomicNumber={10} period={2} group={18} backgroundColor='lemonchiffon' />
         <ChemicalElement name='Argon' symbol='Ar' atomicNumber={18} period={3} group={18} backgroundColor='lemonchiffon' />
         <ChemicalElement name='Krypton' symbol='Kr' atomicNumber={36} period={4} group={18} backgroundColor='lemonchiffon' />

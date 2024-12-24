@@ -4,11 +4,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999; /* ensure it’s on top */
+    z-index: 9999;
 }
 
 .modal-container {
@@ -16,7 +16,7 @@
     border-radius: 4px;
     padding: 20px;
     position: relative;
-    width: 400px; /* fixed width for demonstration */
+    width: 400px;
 }
 
 .modal-close {
