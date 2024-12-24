@@ -7,7 +7,9 @@
 
 .table {
   display: grid;
-  grid-template-columns: 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px;
+  grid-template-columns: repeat(17, auto) 1fr;
+  width: 90%;
+  max-width: 100%;;
 }
 
 .group-two {

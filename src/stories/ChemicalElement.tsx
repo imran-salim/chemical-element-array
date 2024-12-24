@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './chemicalElement.css';
-import { InformationModal } from './InformationModal';
+import  { Modal } from './Modal';
 
 interface ChemicalElementProps {
   /**
@@ -45,10 +45,6 @@ export const ChemicalElement = ({
   const [hover, setHover] = useState(false);
   const [modal, setModal] = useState(false);
 
-  useEffect(() => {
-
-  }, []);
-
   const passive = {
     'backgroundColor': 'white',
     opacity: 1,
@@ -84,14 +80,13 @@ export const ChemicalElement = ({
       }}
       {...props}
     >
-      {modal ? <InformationModal /> :
+      {modal ? <Modal atomicNumber={atomicNumber} symbol={symbol} name={name} /> :
         <>
           <div id="atomic-number">{atomicNumber}</div>
           <p id="symbol">{symbol}</p>
           <p id="name">{name}</p>
         </>
       }
-
     </div>
   );
 };
