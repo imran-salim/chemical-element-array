@@ -8,6 +8,8 @@
 .table {
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
+  width: 90%;
+  max-width: 100%;;
 }
 
 .group-two {

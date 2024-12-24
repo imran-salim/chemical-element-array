@@ -80,7 +80,7 @@ export const ChemicalElement = ({
       }}
       {...props}
     >
-      {modal ? <Modal /> :
+      {modal ? <Modal atomicNumber={atomicNumber} symbol={symbol} name={name} /> :
         <>
           <div id="atomic-number">{atomicNumber}</div>
           <p id="symbol">{symbol}</p>
