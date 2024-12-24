@@ -13,21 +13,21 @@
 }
 
 .group-two {
-  padding-top: 103px;
+  padding-top: 100%;
 }
 
 .group-three, .group-four, .group-five, .group-six, .group-seven, .group-eight, .group-nine, .group-ten, .group-eleven, .group-twelve {
-  padding-top: 309px;
+  padding-top: 300%;
 }
 
 .group-thirteen, .group-fourteen, .group-fifteen, .group-sixteen, .group-seventeen {
-  padding-top: 103px;
+  padding-top: 100%;
 }
 
 .group-eighteen {
-  padding-right: 51.5px;
+  padding-right: 50%;
 }
 
 .f-block {
-  padding-top: 25.75px;
+  padding-top: 25%;
 }
