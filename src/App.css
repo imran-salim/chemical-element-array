@@ -8,8 +8,9 @@
 .table {
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
+  margin-right: 100px;
   width: 90%;
-  max-width: 100%;;
+  max-width: 100%;
 }
 
 .group-two {
@@ -25,7 +26,7 @@
 }
 
 .group-eighteen {
-  padding-right: 50%;
+  padding-right: 150%;
 }
 
 .f-block {
