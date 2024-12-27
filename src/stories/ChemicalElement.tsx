@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './chemicalElement.css';
+import './chemicalelement.css';
 import  { Modal } from './Modal';
 
 interface ChemicalElementProps {
