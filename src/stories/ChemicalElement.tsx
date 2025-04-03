@@ -59,6 +59,7 @@ export const ChemicalElement = ({
   const showModal = () => {
     if (!modal) {
       setModal(true);
+      setHover(false);
     } else {
       setModal(false);
     }
@@ -67,20 +68,16 @@ export const ChemicalElement = ({
   return (
     <div
       className="storybook-chemical-element"
-      onMouseEnter={() => {
-        setHover(true);
-      }}
-      onMouseLeave={() => {
-        setHover(false);
-      }}
+      onMouseEnter={() => !modal && setHover(true)}
+      onMouseLeave={() => setHover(false)}
       onClick={() => showModal()}
       style={{
         ...passive,
-        ...hover ? active : null
+        ...(hover && !modal) ? active : null
       }}
       {...props}
     >
-      {modal ? <Modal atomicNumber={atomicNumber} symbol={symbol} name={name} /> :
+      {modal ? <Modal atomicNumber={atomicNumber} symbol={symbol} name={name} onClose={() => setModal(false)} /> :
         <>
           <div id="atomic-number">{atomicNumber}</div>
           <p id="symbol">{symbol}</p>
