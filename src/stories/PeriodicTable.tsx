@@ -35,10 +35,8 @@ export const PeriodicTable = () => {
       {/* Main periodic table elements */}
       {elements.map(element => {
         const column = getLanthActColumn(element.atomicNumber);
-        if (column) {
-          element = { ...element, group: column };
-        }
-        return renderElement(element);
+        const elementWithColumn = column ? { ...element, group: column } : element;
+        return renderElement(elementWithColumn);
       })}
       
       {/* Labels */}
