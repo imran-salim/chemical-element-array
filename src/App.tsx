@@ -1,10 +1,12 @@
 import './App.css';
 
 import { ChemicalElement } from './stories/ChemicalElement';
+import { PeriodicTable } from './stories/PeriodicTable';
 
 const App = () => {
   return (
-    <div className="table">
+    <PeriodicTable />
+    /*<div className="table">
       <div className="group-one">
         <ChemicalElement name='Hydrogen' symbol='H' atomicNumber={1} atomicMass={1.0080} standardState='Gas' period={1} group={1} backgroundColor='lightcoral' />
         <ChemicalElement name='Lithium' symbol='Li' atomicNumber={3} atomicMass={7.0} standardState='Solid' period={2} group={1} backgroundColor='lightcoral' />
@@ -204,7 +206,7 @@ const App = () => {
         <ChemicalElement name='Radon' symbol='Rn' atomicNumber={86} atomicMass={222.01758} standardState='Gas' period={6} group={18} backgroundColor='lemonchiffon' />
         <ChemicalElement name='Oganesson' symbol='Og' atomicNumber={118} atomicMass={295.216} standardState='Gas' period={7} group={18} backgroundColor='lemonchiffon' />
       </div>
-    </div>
+    </div>*/
   );
 };
 
