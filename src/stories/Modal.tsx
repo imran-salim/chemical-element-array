@@ -15,17 +15,44 @@ export const Modal = ({ atomicNumber, symbol, name, period, group, atomicMass, s
         <div className="modal-overlay">
             <div className="modal-container">
                 <button className="modal-close">×</button>
+                
+                <div className="modal-header">
+                    <div className="element-symbol">{symbol}</div>
+                    <div>
+                        <div className="element-name">{name}</div>
+                        <div style={{ color: '#666' }}>Element {atomicNumber}</div>
+                    </div>
+                </div>
+
                 <div className="modal-content">
-                    <h1>{name}</h1>
-                    <h2>{symbol}</h2>
-                    <p>Atomic Number: {atomicNumber}</p>
-                    <p>Period: {period}</p>
-                    <p>Group: {group}</p>
-                    <p>Atomic Mass: {atomicMass} u</p>
-                    <p>Standard State: {standardState}</p>
+                    <div className="element-details">
+                        <div className="detail-item">
+                            <div className="detail-label">Atomic Number</div>
+                            <div className="detail-value">{atomicNumber}</div>
+                        </div>
+                        
+                        <div className="detail-item">
+                            <div className="detail-label">Atomic Mass</div>
+                            <div className="detail-value">{atomicMass} u</div>
+                        </div>
+                        
+                        <div className="detail-item">
+                            <div className="detail-label">Period</div>
+                            <div className="detail-value">{period}</div>
+                        </div>
+                        
+                        <div className="detail-item">
+                            <div className="detail-label">Group</div>
+                            <div className="detail-value">{group}</div>
+                        </div>
+                        
+                        <div className="detail-item" style={{ gridColumn: '1 / -1' }}>
+                            <div className="detail-label">Standard State</div>
+                            <div className="detail-value">{standardState}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
     );
 }
